@@ -1,0 +1,31 @@
+{
+  "name": "telecomunicaciones",
+  "version": "1.0.0",
+  "description": "sistema web para hz",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build"
+  },
+  "keywords": [
+    "telecomunicaciones_hz"
+  ],
+  "author": "Yuvigilda",
+  "license": "ISC",
+  "devDependencies": {
+    "glob": "^11.0.2",
+    "gulp": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^6.0.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.1.0",
+    "gulp-terser-js": "^5.2.2",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-webp": "^8.0.0",
+    "sass": "^1.86.3",
+    "sharp": "^0.34.1"
+  }
+}

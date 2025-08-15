@@ -1,0 +1,18 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.accion {
+    background-color: v.$azulMedio;
+    padding: 2rem;
+
+    a {
+        color: v.$blanco;
+        
+    }
+}
+
+.lista {
+
+padding-top: 5rem;
+
+}

@@ -1,0 +1,81 @@
+@use 'variables' as v;
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: v.$fuentePrincipal;
+    font-size: 1.8rem;
+    color: v.$negro;
+}
+
+p {
+    color: v.$negro;
+    line-height: 1.8rem;
+}
+
+label {
+    border-radius: 2.5rem;
+    border: v.$azulMedio;
+}
+
+.contenedor {
+    max-width: 120rem;
+    width: 95%;
+    margin: 0 auto;
+}
+.contenedor-sm{
+     max-width: 70rem;
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0 0 5rem 0;
+    font-weight: bold;
+    margin: 5rem 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+body>section {
+    padding: 5rem 0;
+
+}
+img{
+    width: 95%;
+    display: block;
+}
+.nombre-pagina{
+    text-align: center;
+    margin: 4rem 0;
+    font-weight: bold;
+}
+.descripcion-pagina{
+    text-align: center;
+}

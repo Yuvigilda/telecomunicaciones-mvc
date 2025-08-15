@@ -1,0 +1,23 @@
+{
+    "name": "yuvigildaaltamirano/telecomunicaciones",
+    "description": "Proyecto telecomunicaciones",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+             "Model\\": "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Clases\\" : "./clases"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yuvigilda Altamirano",
+            "email": "altamiranoyuvigilda06122001@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.10",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

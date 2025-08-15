@@ -1,0 +1,44 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.header h1 {
+    background-color: #f0f4f8;
+    text-align: center;
+    color: v.$moradoMedio;
+    font-size: 3rem;
+    
+}
+
+.nav-principal {
+    display: flex;
+    justify-content: space-evenly;
+    
+    flex-direction: row;
+    font-size: 2.2rem;
+    a{
+        padding: 1rem;
+        color: v.$blanco;
+        font-weight: bold;
+          &:hover {
+        background-color: v.$azulBrillante;
+        color: v.$amarillo;
+        
+    }   
+    }
+   
+
+}
+.nav-bg{
+    background-color: v.$azulMedio;
+    
+}
+
+.logo {
+    img {
+
+        height: calc(100vh - 12rem) ;
+        object-fit: cover;
+
+
+    }
+}
