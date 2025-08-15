@@ -19,7 +19,7 @@ include_once __DIR__ . '/../templates/alertas.php';
 </form>
 
 <div class="acciones">
-    <a href="/loggin">¿Ya tienes cuenta? Iniciar Sesion</a>
+    <a href="/">¿Ya tienes cuenta? Iniciar Sesion</a>
     <a href="/crear-cuenta">¿Aun no tienes cuenta? Obtener una</a>
 </div>
 </div>

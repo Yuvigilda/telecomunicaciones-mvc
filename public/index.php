@@ -20,8 +20,8 @@ use Controllers\VentaController;
 
 $router = new Router();
 
-$router->get('/login',[loginController::class,'login']);
-$router->post('/login',[loginController::class,'login']);
+$router->get('/',[loginController::class,'login']);
+$router->post('/',[loginController::class,'login']);
 $router->get('/logout',[loginController::class,'logout']);
 
 $router->get('/olvide',[loginController::class,'olvide']);
