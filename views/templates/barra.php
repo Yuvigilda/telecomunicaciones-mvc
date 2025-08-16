@@ -11,7 +11,7 @@
             <a href="/proveedores">Proveedores</a>
             <a href="/vendedores">Vendedores</a>
             <a href="/productos">Productos</a>
-            <a href="/servicios">Servicio</a>
+            <a href="/servicios">Servicios</a>
             <a href="/ventas">Ventas </a>
             <a href="/pagos">Pagos </a>
 
